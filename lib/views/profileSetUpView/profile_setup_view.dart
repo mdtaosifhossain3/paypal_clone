@@ -118,7 +118,7 @@ class ProfileSetupView extends StatelessWidget {
                     "Full Name": fullName.text,
                     "Nid": nid.text,
                     "Phone": phoneNumber.text,
-                    "Balance": 0,
+                    "Balance": 50,
                     "Profile Pic": controller.imageDownloadLnk.value,
                   }).then((value) => Get.to(() => NavView()));
                 },
