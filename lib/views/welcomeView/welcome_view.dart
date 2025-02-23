@@ -67,7 +67,7 @@ class WelcomeView extends StatelessWidget {
             ),
           ),
           Container(
-            height: size.height * .24,
+            height: size.height * .27,
             padding: const EdgeInsets.all(30),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
