@@ -33,9 +33,9 @@ class SignUpService {
       if (cred.user != null) {
         // Create an user Collection
         await FirebaseFirestore.instance
-            .collection("user")
+            .collection("users")
             .doc(cred.user!.uid)
-            .set({"email": email,"Balance":50});
+            .set({"email": email,});
 
         //Navigate to ProfileSetupView
         Get.offAll(() => ProfileSetupView(
