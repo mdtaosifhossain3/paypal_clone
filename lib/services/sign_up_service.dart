@@ -33,7 +33,7 @@ class SignUpService {
       if (cred.user != null) {
         // Create an user Collection
         await FirebaseFirestore.instance
-            .collection("users")
+            .collection("user")
             .doc(cred.user!.uid)
             .set({"email": email,"Balance":50});
 
